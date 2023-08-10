@@ -1,6 +1,6 @@
 {
     "bsv.bazel.enabled": true,
     "bsv.cc.compdb.targets": [
-        "//:hello-world"
+        "//:hello"
     ]
 }
