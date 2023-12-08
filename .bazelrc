@@ -1,0 +1,9 @@
+
+# bazel build 指定gcc
+# build --action_env=CC=/usr/bin/gcc
+# build --action_env=CXX=/usr/bin/g++
+
+# 指定生产compile_commands.json
+build --cxxopt=-std=c++2b
+# build --experimental_action_listener=//tools/cpp:compile_commands_listener
+# build --experimental_generate_json_trace_profile
